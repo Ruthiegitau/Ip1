@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <link rel="stylesheet" href="build/css/vendor.css">
+    <link rel="stylesheet" href="build/css/styles.css">
+    <script src="build/js/vendor.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <title>GitHub</title>
+  </head>
+  <body>
+    <div class="container main">
+      <div class="header row page-header">
+        <h1>git It!</h1>
+        <br>
+        <div class="col-md-4">
+          <form id="form">
+            <input id="username" class="form-control" placeholder="Enter username" required>
+            <br>
+            <button class="btn btn-primary" type="submit">GITHUB</button>
+          </form>
+        </div>
+      </div>
+      <h3 id="error"></h3>
+      <div class="output row">
+        <div id="user-info" class="col-md-3"></div>
+        <h2>Repos</h2>
+        <div id="user-repos" class="col-md-9"></div>
+      </div>
+    </div>
+  </body>
+</html>

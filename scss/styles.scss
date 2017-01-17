@@ -1,0 +1,16 @@
+$gray : #d3d3d3;
+$white: #fff;
+$black: #333;
+
+.main {
+  background: $black;
+  color:$white ;
+  text-align: center;
+  .btn {
+    font-weight: bold;
+    text-align: center;
+    background: transparent;
+    color: white;
+  }
+
+}
