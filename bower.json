@@ -3,10 +3,9 @@
   "description": "",
   "main": "index.js",
   "authors": [
-    "brianmituka <mitukab@outlook.com>"
   ],
   "license": "ISC",
-  "homepage": "https://github.com/brianmituka/mc1",
+  "homepage": "https://github.com/ruthiegitau/mc1",
   "private": true,
   "ignore": [
     "**/.*",
