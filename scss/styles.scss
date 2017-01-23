@@ -4,13 +4,14 @@ $black: #333;
 
 .main {
   background: $black;
-  color:$white ;
+  color:black;
   text-align: center;
   .btn {
     font-weight: bold;
     text-align: center;
     background: transparent;
-    color: white;
+    color: $white;
+    border: $white;
   }
 
 }
